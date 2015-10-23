@@ -17,6 +17,18 @@
         </activity>
         <activity android:name=".Session4Activity" >
         </activity>
+        <activity android:name=".Session1Activity" >
+        </activity>
+        <activity android:name=".Session2Activity" >
+        </activity>
+        <activity android:name=".Session2bActivity" >
+        </activity>
+        <activity android:name=".Session2cActivity" >
+        </activity>
+        <activity android:name=".Session3Activity" >
+        </activity>
+        <activity android:name=".Session3bActivity" >
+        </activity>
     </application>
 
 </manifest>
