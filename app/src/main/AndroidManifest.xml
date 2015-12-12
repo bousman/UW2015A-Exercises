@@ -15,8 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Session4Activity" >
-        </activity>
         <activity android:name=".Session1Activity" >
         </activity>
         <activity android:name=".Session2Activity" >
@@ -28,6 +26,30 @@
         <activity android:name=".Session3Activity" >
         </activity>
         <activity android:name=".Session3bActivity" >
+        </activity>
+        <activity android:name=".Session4Activity" >
+        </activity>
+        <activity android:name=".Session5Activity" >
+        </activity>
+        <activity android:name=".Session5bActivity" >
+        </activity>
+        <activity android:name=".Session5cActivity" >
+        </activity>
+        <activity android:name=".Session6Activity" >
+        </activity>
+        <activity android:name=".Session6bActivity" >
+        </activity>
+        <activity android:name=".Session6cActivity" >
+        </activity>
+        <activity android:name=".Session6dActivity" >
+        </activity>
+        <activity android:name=".Session7Activity" >
+        </activity>
+        <activity android:name=".Session7bActivity" >
+        </activity>
+        <activity android:name=".Session8Activity" >
+        </activity>
+        <activity android:name=".Session9Activity" >
         </activity>
     </application>
 

@@ -5,23 +5,24 @@
             android:padding="4dp">
 
     <LinearLayout
-
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        style="?android:buttonBarStyle">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:textAppearanceMedium"
-            android:text="Class Session"
+            android:text="@string/class_session"
             />
 
         <Button
             android:id="@+id/session1"
+            style="?android:attr/selectableItemBackground"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Session 1"
+            android:text="@string/session1"
             android:onClick="onClickButton" />
 
         <LinearLayout
@@ -30,42 +31,138 @@
 
             <Button
                 android:id="@+id/session2"
+                style="?android:attr/selectableItemBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Session 2"
+                android:text="@string/session2"
                 android:onClick="onClickButton" />
 
             <Button
                 android:id="@+id/session2b"
+                style="?android:attr/selectableItemBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2B"
+                android:text="@string/session2b"
                 android:onClick="onClickButton" />
 
             <Button
                 android:id="@+id/session2c"
+                style="?android:attr/selectableItemBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2C"
+                android:text="@string/session2c"
                 android:onClick="onClickButton" />
         </LinearLayout>
 
 
         <Button
             android:id="@+id/session3"
+            style="?android:attr/selectableItemBackground"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Session 3"
+            android:text="@string/session3"
             android:onClick="onClickButton" />
 
         <Button
             android:id="@+id/session4"
+            style="?android:attr/selectableItemBackground"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Session 4"
+            android:text="@string/session4"
             android:onClick="onClickButton" />
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/session5"
+                style="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/session5"
+                android:onClick="onClickButton" />
+
+            <Button
+                android:id="@+id/session5b"
+                style="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/session5b"
+                android:onClick="onClickButton" />
+
+            <Button
+                android:id="@+id/session5c"
+                style="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/session5c"
+                android:onClick="onClickButton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/session6"
+                style="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickButton"
+                android:text="@string/session6"/>
+
+            <Button
+                android:id="@+id/session6b"
+                style="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickButton"
+                android:text="@string/session6b"/>
+
+            <Button
+                android:id="@+id/session6c"
+                style="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickButton"
+                android:text="@string/session6c"/>
+
+            <Button
+                android:id="@+id/session6d"
+                style="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClickButton"
+                android:text="@string/session6d"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/session7"
+            style="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/session7"
+            android:onClick="onClickButton" />
+
+        <Button
+            android:id="@+id/session8"
+            style="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/session8"
+            android:onClick="onClickButton" />
+
+        <Button
+            android:id="@+id/session9"
+            style="?android:attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/session9"
+            android:onClick="onClickButton" />
     </LinearLayout>
 
 </ScrollView>

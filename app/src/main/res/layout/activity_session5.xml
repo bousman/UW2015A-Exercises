@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:id="@+id/main">
+
+    <Button
+        android:id="@+id/clickme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:onClick="ClickMe"/>
+
+    <Button
+        android:id="@+id/dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal Dialog"
+        android:onClick="onDialog"/>
+
+    <Button
+        android:id="@+id/cust_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:onClick="onDialog2"/>
+
+
+    <Button
+        android:id="@+id/exer_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise Dialog"
+        android:onClick="onExercise"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:onClick="showPopup" />
+
+</LinearLayout>

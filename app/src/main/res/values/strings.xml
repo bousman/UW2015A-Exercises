@@ -14,5 +14,37 @@
         <item>United Kingdom</item>
         <item>United States</item>
     </string-array>
+    <string name="hello_world">Hello World</string>
 
+    <string name="class_session">Class Session</string>
+    <string name="session1">Session 1</string>
+    <string name="session2">Session 2</string>
+    <string name="session2b">2B</string>
+    <string name="session2c">2C</string>
+    <string name="session3">Session 3</string>
+    <string name="session4">Session 4</string>
+    <string name="session5">Session 5</string>
+    <string name="session5b">5B</string>
+    <string name="session5c">5C</string>
+    <string name="session6">Session 6</string>
+    <string name="session6b">6B</string>
+    <string name="session6c">6C</string>
+    <string name="session6d">6D</string>
+    <string name="session7">Session 7</string>
+    <string name="session8">Session 8</string>
+    <string name="session9">Session 9</string>
+    
+    <string name="pref_sync">pref_sync</string>
+    <string name="pref_syncConnectionTypes_default">1</string>
+    <string name="pref_enabl_comm">pref_enabl_comm</string>
+
+    <string-array name="pref_syncConnectionTypes_entries">
+        <item>Local</item>
+        <item>Remote</item>
+    </string-array>
+
+    <string-array name="pref_syncConnectionTypes_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>

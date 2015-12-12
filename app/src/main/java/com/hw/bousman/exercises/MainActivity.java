@@ -42,7 +42,46 @@ public class MainActivity extends AppCompatActivity {
             Intent explicitIntent = new Intent(MainActivity.this, Session4Activity.class);
             startActivity(explicitIntent);
         }
-
+        else if ( id == R.id.session5) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session5Activity.class);
+            startActivity(explicitIntent);
+        }
+        else if ( id == R.id.session5b) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session5bActivity.class);
+            startActivity(explicitIntent);
+        }
+        else if ( id == R.id.session5c) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session5cActivity.class);
+            startActivity(explicitIntent);
+        }
+        else if (id == R.id.session6) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session6Activity.class);
+            startActivity(explicitIntent);
+        }
+        else if (id == R.id.session6b) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session6bActivity.class);
+            startActivity(explicitIntent);
+        }
+        else if (id == R.id.session6c) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session6cActivity.class);
+            startActivity(explicitIntent);
+        }
+        else if (id == R.id.session6d) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session6dActivity.class);
+            startActivity(explicitIntent);
+        }
+        else if ( id == R.id.session7) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session7Activity.class);
+            startActivity(explicitIntent);
+        }
+        else if ( id == R.id.session8) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session8Activity.class);
+            startActivity(explicitIntent);
+        }
+        else if ( id == R.id.session9) {
+            Intent explicitIntent = new Intent(MainActivity.this, Session9Activity.class);
+            startActivity(explicitIntent);
+        }
     }
 
 }
