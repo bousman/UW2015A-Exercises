@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="key_settings"
+        android:title="Title 1">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_sync"
+            android:summaryOff="Checked off"
+            android:summaryOn="Checked on"
+            android:title="Synchronization"/>
+
+        <ListPreference
+            android:defaultValue="@string/pref_syncConnectionTypes_default"
+            android:dialogTitle="Sync Connection Type Dialog Title"
+            android:entries="@array/pref_syncConnectionTypes_entries"
+            android:entryValues="@array/pref_syncConnectionTypes_values"
+            android:key="pref_syncConnectionType"
+            android:summary="What connection do you want?"
+            android:title="Sync Connection Type"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_enabl_comm"
+            android:widgetLayout="@layout/custom_checkbox_layout"
+            android:title="Enable Communication"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
